@@ -1,6 +1,6 @@
 package com.bilby91.github_bot.models
 
-case class SlackCommand(
+case class SlackRequest(
   token: String,
   teamId: String,
   teamDomain: String,
@@ -8,7 +8,7 @@ case class SlackCommand(
   channelName: String,
   userId: String,
   userName: String,
-  command: String,
+  commandString: String,
   text: String,
   responseUrl: String)
 
