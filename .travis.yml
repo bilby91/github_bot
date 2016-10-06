@@ -5,3 +5,5 @@ scala:
 jdk:
   - oraclejdk8
 install: true
+env:
+ - GITHUB_TOKEN=XXX
